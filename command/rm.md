@@ -118,4 +118,12 @@ rm -I file1 file2 file3
 rm -v [文件/目录]
 ```
 
+**删除以-f开头的文件**
+
+> 先创建一个文件，touch -- -f
+
+```shell
+rm -- -f
+```
+
 
