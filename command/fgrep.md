@@ -64,7 +64,8 @@ fgrep strcpy *.c
  **计数匹配某模式的行数：** 
 
 ```shell
-fgrep -c 『{』pgm.cfgrep -c 『}』pgm.c
+fgrep -c '{' pgm.c
+fgrep -c '}' pgm.c
 ```
 
 显示在 pgm.c 中包含左括号和右括号的行的数目。
